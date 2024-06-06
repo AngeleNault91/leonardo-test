@@ -1,0 +1,30 @@
+{
+  "name": "schedule-task-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "test:ci": "jest",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "keywords": [],
+  "author": "angel",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.15.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.2",
+    "express": "^4.19.2",
+    "prisma": "^5.15.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/supertest": "^6.0.2",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.1.4"
+  }
+}
